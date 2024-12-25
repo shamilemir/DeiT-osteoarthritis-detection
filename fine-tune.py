@@ -49,13 +49,13 @@ batch_size = 32 # TODO Choose batch size
 num_training_steps = 32 # TODO Choose number of training steps
 
 # TODO Change to correct path, choose model
-model_path = "/content/drive/MyDrive/datasets/PyTorchdeit-base-distilled-patch16-384/" 
+model_path = "/content/drive/path/to/deit-base-distilled-patch16-384/" # TODO Choose 384 or 224
 model = DeiTForImageClassificationWithTeacher.from_pretrained(model_path)
 model.to(device)
 
 # TODO Change to correct paths
-train_dataset = myDataset(root_dir="/content/drive/MyDrive/datasets/adjusteddatasets/KneeOsteoarthritisXray/train")
-test_dataset = myDataset(root_dir="/content/drive/MyDrive/datasets/adjusteddatasets/KneeOsteoarthritisXray/test")
+train_dataset = myDataset(root_dir="/content/drive/path/to/KneeOsteoarthritisXray384/train") # TODO Choose 384 or 224
+test_dataset = myDataset(root_dir="/content/drive/path/to/KneeOsteoarthritisXray384/test") # TODO Choose 384 or 224
 
 train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
