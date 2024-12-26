@@ -8,6 +8,7 @@
     - `python ./datasplitting.py`
     - `python ./preprocessing.py`
 6.  (optional) manually delete images with artifacts like implants
+7.  (optional) color invert images that are randomly color inverted the wrong way
 
 
 #### To generate a random selection of size 384x384 images:
