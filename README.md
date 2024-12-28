@@ -1,2 +1,2 @@
-# DeiT-disease-detection
-Low-cost Fine-tuning of Data-efficient Image Transformers on X-ray Imaging for Osteoarthritis Detection
+# Detect Osteoarthritis in Knees with the Data-efficient Image Transformer
+This repository is for a paper submitted for review and publishing.
