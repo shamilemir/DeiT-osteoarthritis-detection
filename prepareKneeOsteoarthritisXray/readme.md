@@ -17,7 +17,7 @@
     - move contents of **KneeOsteoarthritisRNN/ClsKLData/kneeKL299** instead of **kneeKL224** (again excluding "val" and "auto\_test" folders)
 
 
-##### To redo selection process:
+#### To redo selection process:
 1. replace **selected\_data** and **selected\_processed\_data** with **template\_empty\_folder** and rename both again
 2. repeat remaining steps
 
